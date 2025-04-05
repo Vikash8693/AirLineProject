@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="489" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="TicketID" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="ID" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="10" max="32767" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TicketID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="268" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="49" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="departure1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="arrival" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="departure" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="33" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="arrival1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="240" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="departure1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="arrival" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="departure" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace pref="16" max="32767" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                      <Component id="arrival1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="56" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="departure1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Diparture"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search your Flights"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="arrival1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Arrival"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="arrival">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Delhi&quot;, &quot;Kolkatta&quot;, &quot;dehradun&quot;, &quot;Mumbai&quot;,&quot;Bangelor&quot; })" type="code"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JComboBox&lt;&gt;()"/>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="departure">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Delhi&quot;, &quot;Kolkatta&quot;, &quot;dehradun&quot;, &quot;Mumbai&quot;,&quot;Bangelor&quot; })" type="code"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JComboBox&lt;&gt;()"/>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Search"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="table">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="6" rowCount="0">
+                <Column editable="true" title="Flight ID" type="java.lang.Object"/>
+                <Column editable="true" title="Flight Name" type="java.lang.Object"/>
+                <Column editable="true" title="Arrival" type="java.lang.Object"/>
+                <Column editable="true" title="Departure" type="java.lang.Object"/>
+                <Column editable="true" title="Duration" type="java.lang.Object"/>
+                <Column editable="true" title="Date" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tableMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="36" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Book The Dream Flight Ticket For You"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TicketID">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ticket ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ID">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ID"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" red="33" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="firstName" alignment="0" pref="78" max="32767" attributes="0"/>
+                                      <Component id="custid" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="lastName" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="gender" min="-2" pref="78" max="-2" attributes="0"/>
+                                      <Component id="contact" min="-2" pref="78" max="-2" attributes="0"/>
+                                      <Component id="fare" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                                      <Component id="totalticket" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                                      <Component id="Ans" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                                      <Component id="discount" min="-2" pref="78" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace pref="37" max="32767" attributes="0"/>
+                                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace pref="12" max="32767" attributes="0"/>
+                                  <Component id="caculatefare" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="custid" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="firstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="contact" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="gender" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fare" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="totalticket" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Ans" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="caculatefare" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="discount" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="20" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Customer ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="First Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Last Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Contact"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Gender"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fare"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Total Ticket"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Total Fare"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Discount"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="firstName">
+        </Component>
+        <Component class="javax.swing.JTextField" name="custid">
+        </Component>
+        <Component class="javax.swing.JTextField" name="fare">
+        </Component>
+        <Component class="javax.swing.JTextField" name="lastName">
+        </Component>
+        <Component class="javax.swing.JTextField" name="totalticket">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Ans">
+        </Component>
+        <Component class="javax.swing.JTextField" name="discount">
+        </Component>
+        <Component class="javax.swing.JTextField" name="contact">
+        </Component>
+        <Component class="javax.swing.JTextField" name="gender">
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="caculatefare">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calculate Fare"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="caculatefareActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Book"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cancel"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
